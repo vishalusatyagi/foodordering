@@ -73,7 +73,7 @@ span{
 .imgsetting img{
     height: 140px;
 }
-.imgsetting img:hover{
+.immgsetting:hover{
     transform: scale(1.1);
 }
 .rowsetting h2{
