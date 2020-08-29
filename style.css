@@ -6,7 +6,7 @@ span{
     color: #d9534f !important;
 }
 .bgimg{
-    background-image: url(/img/photo-1.jpg);
+    background-image: url(./img/photo-1.jpg);
     background-size: cover;
     background-attachment: fixed;
     width: 100%;
@@ -88,7 +88,7 @@ span{
 /* form section */
 .form {
     height: 100vh;
-    background-image: url(/img/contactbackground.jpg);
+    background-image: url(./img/contactbackground.jpg);
     background-position: top center;
     background-size: cover;
     position: relative;
