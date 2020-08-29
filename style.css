@@ -1,0 +1,595 @@
+span{
+    color: #d9534f;
+}
+/* nav section */
+.navbar-brand{
+    color: #d9534f !important;
+}
+.bgimg{
+    background-image: url(/img/photo-1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-position: right bottom;
+    z-index: 1;
+}
+.bgimg::after{
+    content: "";
+    top: 0;
+    left: 0;
+    background-color: black;
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+    opacity: .4;
+}
+.headerset{
+    padding-top: 200px;
+    box-sizing: border-box;
+}
+.headerset h2{
+    font-size: 42px;
+    font-weight: bold;
+}
+.btn{
+    outline: none !important;
+    box-shadow: #d9534f;
+    background-color: #d9534f;
+    color: white;
+}
+.btn:hover{
+    box-shadow: #d9534f;
+    background-color: white;
+    color: #d9534f;
+}
+/* end nav section */
+
+/* slider section */
+.slidersetting h1{
+    margin: 60px 0;
+    font-size: 50px;
+    font-weight: bold;
+}
+.slidersetting img{
+    height: 200px;
+}
+/* end slider section */
+
+/* service section */
+.ourservice{
+    padding: 100px 0px 0px 60px;
+    height: 700px;
+}
+.ourservice h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+.rowsetting{
+    margin: 60px 0;
+}
+.imgsetting img{
+    height: 140px;
+}
+.imgsetting img:hover{
+    transform: scale(1.1);
+}
+.rowsetting h2{
+    margin-top: 20px;
+    font-weight: bold;
+}
+.rowsetting p{
+    padding: 10px;
+}
+/* end service section */
+
+/* form section */
+.form {
+    height: 100vh;
+    background-image: url(/img/contactbackground.jpg);
+    background-position: top center;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+}
+.form::after{
+    content: "";
+    top: 0;
+    left: 0;
+    position: absolute;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: .5;
+}
+.form h1{
+    padding: 50px 0;
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+}
+.form label{
+    font-size: 20px;
+    padding: 10px 0;
+    color: white;
+}
+.form .btn{
+    margin: 20px 0;
+}
+.form .btn:hover{
+    margin: 20px 0;
+    background-color: white;
+    color: #d9534f;
+}
+.form input{
+    border: none;
+}
+/* end form section */
+
+/* footer section */
+.footer{
+    padding-top: 8px;
+    height: 60px;
+    line-height: 10px;
+}
+/* end footer section */
+
+
+
+/* Responsive media query */
+@media (min-width: 1025px){
+    .navbar-brand{
+        font-size: 20px !important;
+    }
+    .nav-link{
+        padding-left: 0 !important;
+        padding: 10px !important;
+        font-size: 20px !important;
+    }
+    .headerset{
+        padding-top: 200px;
+    }
+    .headerset h1{
+        font-size: 80px;
+        font-weight: bold;
+    }
+    .headerset h2{
+        font-size: 40px;
+        padding-top: 20px;
+        font-weight: bold;
+    }
+    .btn{
+        margin-top: 35px;
+    }
+    .btn{
+        font-size: 30px;
+    }
+    /* slider setting */
+    .slidersetting h1{
+        margin: 100px 0;
+        font-size: 60px;
+    }
+    .slidersetting img{
+        height: 180px;
+    }
+    /* end slider setting */
+    
+    /* our service section */
+    .ourservice{
+        padding: 100px 0px;
+        height: 800px;
+    }
+    .ourservice h1{
+        text-align: center;
+        font-size: 60px;
+        font-weight: bold;
+    }
+    .rowsetting{
+        margin: 100px 0;
+    }
+    .imgsetting img{
+        height: 200px;
+    }
+    .rowsetting h2{
+        margin-top: 20px;
+        font-size: 30px;
+        font-weight: bold;
+    }
+    .rowsetting p{
+        padding: 10px;
+        font-size: 20px;
+    }
+    /* end our service section */
+    /* form section */
+    .form{
+        height: 650px;
+    }
+    .form h1{
+        font-size: 60px;
+        padding: 30px 0;
+    }
+    .form-control{
+        font-size: 20px;
+    }
+    label{
+        font-size: 20px !important;
+    }
+    .form .btn{
+        font-size: 20px;
+    }
+    .footer{
+        padding-top: 10px;
+        font-size: 15px;
+    }
+    /* end form section */
+}
+@media (min-width: 769px) and (max-width: 1024px){
+    .navbar-brand{
+        font-size: 20px !important;
+    }
+    .nav-link{
+        font-size: 20px !important;
+    }
+    .headerset{
+        padding-top: 200px;
+    }
+    .headerset h1{
+        font-size: 60px;
+        font-weight: bold;
+    }
+    .headerset h2{
+        font-size: 30px;
+        padding-top: 20px;
+        font-weight: bold;
+    }
+    .btn{
+        margin-top: 35px;
+    }
+    .btn{
+        font-size: 30px;
+    }
+    /* slider setting */
+    .slidersetting h1{
+        margin: 100px 0;
+        font-size: 60px;
+    }
+    .slidersetting img{
+        height: 160px;
+    }
+    /* end slider setting */
+    
+    /* our service section */
+    .ourservice{
+        padding: 100px 0px;
+        height: 800px;
+    }
+    .ourservice h1{
+        text-align: center;
+        font-size: 60px;
+        font-weight: bold;
+    }
+    .rowsetting{
+        margin: 100px 0;
+    }
+    .imgsetting img{
+        height: 200px;
+    }
+    .rowsetting h2{
+        margin-top: 20px;
+        font-size: 30px;
+        font-weight: bold;
+    }
+    .rowsetting p{
+        padding: 10px;
+        font-size: 20px;
+    }
+    /* end our service section */
+    /* form section */
+    .form{
+        height: 650px;
+    }
+    .form h1{
+        font-size: 60px;
+        padding: 30px 0;
+    }
+    .form-control{
+        font-size: 20px;
+    }
+    label{
+        font-size: 20px !important;
+    }
+    .form .btn{
+        font-size: 20px;
+    }
+    .footer{
+        font-size: 20px;
+    }
+    /* end form section */
+}
+@media (min-width: 426px) and (max-width: 768px){
+    .headerset{
+        padding-top: 200px;
+    }
+    .headerset h1{
+        font-size: 60px;
+        font-weight: bold;
+    }
+    .headerset h2{
+        font-size: 30px;
+        padding-top: 20px;
+        font-weight: bold;
+    }
+    .btn{
+        margin-top: 35px;
+    }
+    .btn{
+        font-size: 20px;
+    }
+    /* slider setting */
+    .slidersetting h1{
+        margin: 80px 0;
+        font-size: 60px;
+    }
+    .slidersetting img{
+        height: 100px;
+    }
+    /* end slider setting */
+    
+    /* our service section */
+    .ourservice{
+        padding: 90px 0px;
+        height: 1400px;
+    }
+    .ourservice h1{
+        text-align: center;
+        font-size: 60px;
+        font-weight: bold;
+    }
+    .ourservice p{
+        font-size: 25px;
+    }
+    .rowsetting{
+        margin: 100px 0;
+    }
+    .imgsetting img{
+        height: 200px;
+    }
+    .rowsetting h2{
+        margin-top: 20px;
+        font-size: 40px;
+        font-weight: bold;
+    }
+    .rowsetting p{
+        padding: 10px;
+        font-size: 20px;
+    }
+    /* end our service section */
+    /* form section */
+    .form{
+        height: 650px;
+    }
+    .form h1{
+        font-size: 60px;
+        padding: 30px 0;
+    }
+    .form-control{
+        font-size: 20px !important;
+    }
+    label{
+        font-size: 20px !important;
+    }
+    .form .btn{
+        font-size: 20px;
+    }
+    .footer{
+        font-size: 15px;
+    }
+    /* end form section */
+}
+@media (min-width: 376px) and (max-width: 425px){
+    .logo{
+        height: 50px;
+    }
+    .headerset{
+        padding-top: 200px;
+    }
+    .headerset h1{
+        font-size: 44px;
+        font-weight: bold;
+    }
+    .headerset h2{
+        font-size: 22px;
+        font-weight: bold;
+    }
+    .btn{
+        margin-top: 30px;
+    }
+    /* slider setting */
+    .slidersetting h1{
+        margin: 50px 0;
+        font-size: 42px;
+    }
+    .slidersetting img{
+        height: 44px;
+    }
+    /* end slider setting */
+    
+    /* our service section */
+    .ourservice{
+        padding: 60px 0px;
+        height: 1320px;
+    }
+    .ourservice h1{
+        text-align: center;
+        font-size: 42px;
+        font-weight: bold;
+    }
+    .rowsetting{
+        margin: 80px 0;
+    }
+    .imgsetting img{
+        height: 140px;
+    }
+    .rowsetting h2{
+        margin-top: 20px;
+        font-weight: bold;
+    }
+    .rowsetting p{
+        padding: 10px;
+    }
+    /* end our service section */
+    /* form section */
+    .form{
+        height: 600px;
+    }
+    .form h1{
+        font-size: 42px;
+    }
+    .form h1{
+        padding: 30px 0;
+    }
+    .footer{
+        font-size: 15px;
+    }
+    /* end form section */
+}
+@media (min-width: 321px) and (max-width: 375px){
+    .logo{
+        height: 40px;
+    }
+    .headerset{
+        padding-top: 200px;
+    }
+    .headerset h1{
+        font-size: 40px;
+        font-weight: bold;
+    }
+    .headerset h2{
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .btn{
+        margin-top: 30px;
+    }
+    /* slider setting */
+    .slidersetting h1{
+        margin: 50px 0;
+        font-size: 40px;
+    }
+    .slidersetting img{
+        height: 44px;
+    }
+    /* end slider setting */
+    
+    /* our service section */
+    .ourservice{
+        padding: 60px 0px;
+        height: 1320px;
+    }
+    .ourservice h1{
+        text-align: center;
+        font-size: 40px;
+        font-weight: bold;
+    }
+    .rowsetting{
+        margin: 80px 0;
+    }
+    .imgsetting img{
+        height: 140px;
+    }
+    .rowsetting h2{
+        margin-top: 20px;
+        font-weight: bold;
+    }
+    .rowsetting p{
+        padding: 10px;
+    }
+    /* end our service section */
+    /* form section */
+    .form{
+        height: 600px;
+    }
+    .form h1{
+        font-size: 40px;
+    }
+    .form h1{
+        padding: 30px 0;
+    }
+    .footer{
+        font-size: 15px;
+    }
+    /* end form section */
+}
+@media (max-width: 320px){
+    .logo{
+        height: 40px;
+    }
+    .headerset{
+        padding-top: 220px;
+        box-sizing: border-box;
+    }
+    .headerset h1{
+        font-size: 30px;
+        font-weight: bold;
+    }
+    .headerset h2{
+        font-size: 18px;
+        font-weight: bold;
+    }
+    .btn{
+        margin-top: 30px;
+    }
+    /* slider setting */
+    .slidersetting h1{
+        margin: 50px 0;
+        font-size: 35px;
+    }
+    .slidersetting img{
+        height: 40px;
+    }
+    /* end slider setting */
+
+    /* our service section */
+    .ourservice{
+        padding: 60px 0px;
+        height: 1320px;
+    }
+    .ourservice h1{
+        text-align: center;
+        font-size: 35px;
+        font-weight: bold;
+    }
+    .rowsetting{
+        margin: 80px 0;
+    }
+    .imgsetting img{
+        height: 140px;
+    }
+    .rowsetting h2{
+        margin-top: 20px;
+        font-weight: bold;
+    }
+    .rowsetting p{
+        padding: 10px;
+    }
+    /* end our service section */
+    /* form section */
+    .form{
+        height: 600px;
+    }
+    .form h1{
+        font-size: 35px;
+    }
+    .form h1{
+        padding: 30px 0;
+    }
+    .footer{
+        font-size: 15px;
+    }
+    /* end form section */
+}
+/* End Responsive media query */
+
